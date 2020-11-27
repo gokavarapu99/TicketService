@@ -166,7 +166,7 @@ Tests successful :
 1. Try catch is not implemented . Can be implemented and we can add custom exception handling. 
 2. Integrate with Frontend React or Reactnative using axios. 
 3. Migrating from H2 to Mysql / oracle database. 
-4 . Deploying to EC2 / VM and autoscaling based on load. 
+4 .Deploying to EC2 / VM and autoscaling based on load. 
 5. Deploying to ElasticBeanstalk . 
 6. Can be converted to Serverless lambda functions as per requirement. 
 
