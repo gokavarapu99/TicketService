@@ -114,6 +114,10 @@ Response :
 
 <img width="1000" alt="api1" src="https://user-images.githubusercontent.com/62189277/100448321-efa07580-3066-11eb-8f49-29b12e8a080f.PNG">
 
+
+<img width="700" alt="api1" src="https://user-images.githubusercontent.com/62189277/100451094-a7d01d00-306b-11eb-995c-0fd779699b19.jpg">
+
+
 2. Find and hold the best available seats on behalf of a customer. Each ticket hold should expire within a set number of seconds. I gave 900 seconds as hold time. 
 
 Request / Endpoint :
