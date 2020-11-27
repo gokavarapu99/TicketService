@@ -95,6 +95,10 @@ When you run the project you should see as below Tomcat initialized with port(s)
 <img width="900" alt="RUn" src="https://user-images.githubusercontent.com/62189277/100448225-d7305b00-3066-11eb-882b-7b1bb8d59e78.PNG">
 
 
+
+<img width="1000" alt="RUn" src="https://user-images.githubusercontent.com/62189277/100450874-427c2c00-306b-11eb-8c74-4ab96cbe95f3.jpg">
+
+
 We have total 3 Endpoints and build based on RESTFUL WEBSERVICES . 
 
 1. To fetch the number of seats available within the venue which are neither held nor reserved
