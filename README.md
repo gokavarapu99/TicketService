@@ -122,7 +122,7 @@ Request / Endpoint :
 
 Here test@gmail.com is the customer email address and 2 is the number of seats requested by Customer to keep on hold. 
 
-http://localhost:9090/hold?customerEmail=test@gmail.com&numSeats=2
+**http://localhost:9090/hold?customerEmail=test@gmail.com&numSeats=2**
 
 <img width="1000" alt="api21" src="https://user-images.githubusercontent.com/62189277/100448353-fd55fb00-3066-11eb-8144-f7588faccf9b.PNG">
 
@@ -138,7 +138,7 @@ Request / EndPoint :
 
 Here 1 is the holdId the customer received when hold the tickets and email address which he entered while holding the tickets. 
 
-http://localhost:9090/reserve?seatHoldId=1&customerEmail=test@gmail.com
+**http://localhost:9090/reserve?seatHoldId=1&customerEmail=test@gmail.com**
 
 <img width="1000" alt="api31" src="https://user-images.githubusercontent.com/62189277/100448433-19599c80-3067-11eb-8bc3-4719074ad85a.PNG">
 
@@ -174,7 +174,7 @@ Tests successful :
 1. Try catch is not implemented . Can be implemented and we can add custom exception handling. 
 2. Integrate with Frontend React or Reactnative using axios. 
 3. Migrating from H2 to Mysql / oracle database. 
-4 .Deploying to EC2 / VM and autoscaling based on load. 
+4. Deploying to EC2 / VM and autoscaling based on load. 
 5. Deploying to ElasticBeanstalk . 
 6. Can be converted to Serverless lambda functions as per requirement. 
 
