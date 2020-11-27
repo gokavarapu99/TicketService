@@ -69,6 +69,8 @@ Embedded Spring Boot server
 Framework: Spring Boot
 Language: Java 
 Client: Postman
+Database: In Memory Database H2 and tables and date will imported from data.sql file. 
+Testing : JUnit , Mockito.
 
 Jars will be downloaded from Maven Repository when you import to Eclipse and do mvn clean package. If from IDE just configure as clean package, jars will auto download to your .m2 folder. 
 
@@ -133,6 +135,27 @@ Response:
     "customerEmail": "test@gmail.com",
     "confirmationNumber": 1
 }
+
+Tests successful :
+
+1. TicketControllerTest
+
+2. TicketServiceTest
+
+3. Database Integeration Test / TicketServiceDatabaseTest.java
+
+
+
+
+
+Future :
+1. Try catch is not implemented . Can be implemented and we can add custom exception handling. 
+2. Integrate with Frontend React or Reactnative using axios. 
+3. Migrating from H2 to Mysql / oracle database. 
+4 . Deploying to EC2 / VM and autoscaling based on load. 
+5. Deploying to ElasticBeanstalk . 
+6. Can be converted to Serverless lambda functions as per requirement. 
+
 
 
 
