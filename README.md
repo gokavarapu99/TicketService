@@ -132,8 +132,7 @@ Response :
 <img width="1000" alt="api22" src="https://user-images.githubusercontent.com/62189277/100448416-1068cb00-3067-11eb-9d24-d22c433c1252.PNG">
 
 
-<img width="900" alt="api1" src="https://user-images.githubusercontent.com/62189277/100451094-a7d01d00-306b-11eb-995c-0fd779699b19.jpg">
-
+<img width="1100" alt="api1" src="https://user-images.githubusercontent.com/62189277/100451094-a7d01d00-306b-11eb-995c-0fd779699b19.jpg">
 
 3. Reserve and commit a specific group of held seats for a customer.
 
