@@ -1,7 +1,7 @@
 # TicketService
 TicketService - TotalNumberOfSeats, Hold the seats , Reserve the Seats.
 
-Use case:
+## **Use case**:
 
 Implement a simple ticket service that facilitates the discovery, temporary hold, and final reservation of seats within a high-demand performance venue.
 
@@ -42,7 +42,7 @@ Note: each ticket hold should expire within a set number of seconds.
 Reserve and commit a specific group of held seats for a customer
  
 
-Requirements: 
+## **Requirements**: 
 
 Use a programming language that you are comfortable with. We work in Java, but we are more interested in understanding how you think than in language specifics.
 The solution and tests should build.
@@ -51,13 +51,13 @@ Implementation mechanisms such as disk-based storage, a REST API, and a front-en
 
 
 
-Assumptions:
+## **Assumptions**:
 The Venue contains around 110 seats. Each row has 10 seats and total 11 rows of differnt category Balcony view , Stadium View and Front view. 
 Seats will be assigned to customer based on FCFS basis and there is no option to select to view for customer as this tickets will be generated as per order. 
 When user requests a number of seats and requests to hold . We hold for 900 seconds around 15 min and then the tickets will be available again for hold and reserving. 
 
 
-Environment Setup :
+## **Environment Setup** :
 
 OPEN JDK 15 
 You can download here : 
@@ -75,7 +75,7 @@ Testing : JUnit , Mockito.
 Jars will be downloaded from Maven Repository when you import to Eclipse and do mvn clean package. If from IDE just configure as clean package, jars will auto download to your .m2 folder. 
 
 
-Building the Project :
+## **Building the Project** :
 
 Clone the Project :
 https://github.com/gokavarapu99/TicketService.git
@@ -100,7 +100,7 @@ We have total 3 Endpoints and build based on RESTFUL WEBSERVICES .
 
 1. To fetch the number of seats available within the venue which are neither held nor reserved
 
-Request / EndPoint : http://localhost:9090/seats
+Request / EndPoint : **http://localhost:9090/seats**
 
 Response :
 
@@ -117,6 +117,8 @@ Here test@gmail.com is the customer email address and 2 is the number of seats r
 
 http://localhost:9090/hold?customerEmail=test@gmail.com&numSeats=2
 
+![
+
 
 3. Reserve and commit a specific group of held seats for a customer.
 
@@ -128,7 +130,7 @@ http://localhost:9090/reserve?seatHoldId=1&customerEmail=test@gmail.com
 
 
 
-Response:
+## **Response**:
 
 {
     "message": "Hurray...!!!! your tickets got Booked and your ConfirmationCode is 1",
@@ -148,7 +150,7 @@ Tests successful :
 
 
 
-Future :
+## **Future** :
 1. Try catch is not implemented . Can be implemented and we can add custom exception handling. 
 2. Integrate with Frontend React or Reactnative using axios. 
 3. Migrating from H2 to Mysql / oracle database. 
